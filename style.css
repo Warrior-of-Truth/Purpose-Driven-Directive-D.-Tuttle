@@ -561,8 +561,12 @@ footer h6 {margin: 0px;}
 	margin: 0px;
 }
 
+.podcast_info_div {
+	min-width: 360px;
+}
+
 .podcast_desc {
-	//margin: 0px;
+	margin-top: 0px;
 	font-size: 1em;
 	line-height: 18px;
 }
