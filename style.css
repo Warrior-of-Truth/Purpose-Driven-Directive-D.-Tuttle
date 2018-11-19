@@ -1,0 +1,638 @@
+body {
+	margin: 0px;
+	line-height: 35px; /* Allows header elements to be aligned with different font sizes */
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+/* Classes */
+.shadow {
+	text-shadow: 0px 0px 10px #000;
+}
+
+.nobr {
+	margin: 0px;
+}
+
+.default_lineheight {
+	line-height: 18px;
+}
+/* Containers and Rows */
+
+.header_container {
+	width: 80%;
+	margin: 0px auto;
+}
+
+
+.container {
+	width: 80%;
+	margin: 0px auto;
+}
+
+.row {	
+	overflow: hidden; /* Allows elements to float inside of row element. */
+}
+
+.header_row {
+	overflow: hidden;
+}
+
+/* Top Contact */
+
+#top_contact {
+	width: 100%;
+	padding: 5px 0px;
+}
+
+#top_container {
+	width: 80%;
+	margin: auto;
+	text-align: right;
+}
+
+	/* Header */
+	
+#header_nav li {
+	display: inline-block;	
+}
+
+#header {
+	display: block;
+	width: 100%;
+	padding: 25px 0px;
+	background-color: aliceblue;
+}
+
+.dropdown_content {
+	display: none;
+	position: absolute;
+	width: 160px;
+	box-shadow: 0px 8px 16px 0px gray;
+	z-index: 1;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown_button {
+	color: darkcyan;
+	cursor: pointer;
+}
+
+.dropdown_content a {
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	background-color: aliceblue;
+}
+
+.dropdown_nav:hover .dropdown_content {
+	display: block;
+}
+
+		/* Logo */
+#logo {
+	float:left;
+}
+
+#logo h1 {
+	margin: auto 0px;
+}
+
+#greaterthanlogo {
+	color: white;
+	background-color: brown;
+	padding: 0px 4px;
+	font-weight: normal;
+}
+
+.darkblue {color:#215B85}
+.red {color:#B54E59}
+.lightblue {color:#3B58B8}
+
+		/* Header Nav */
+
+#header_nav {
+	float: right;
+	color: white;
+}
+
+#header_nav ul {
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+}
+
+#header_nav li {
+	padding: 10px;
+}
+
+/* Links CSS */
+
+#top_contact a:link, #top_contact a:visited, #top_contact a:active {
+	text-decoration: none;
+	color: darkcyan;
+}
+
+#top_contact a:hover {
+	text-decoration: underline;
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: white;
+}
+
+#header_nav a {
+	padding: 10px;
+}
+
+#header_nav a:link, #header_nav a:visited, #header_nav a:active {
+	text-decoration: none;
+	color: darkcyan;
+}
+
+#header_nav a:hover {
+	background-color: darkcyan;
+	transition: 0.5s ease-in;
+	color: white;
+	border-radius: 20px;
+}
+
+#footer_nav a:link, #footer_nav a:visited, #footer_nav a:hover, #footer_nav a:active {
+	text-decoration: none;
+	color: white;
+}
+
+#social_media_buttons a:link, #social_media_buttons a:visited, 
+#social_media_buttons a:hover, #social_media_buttons a:active {
+	text-decoration: none;
+	color: white;
+}
+
+/* Banner */
+
+#homebanner {
+	text-align: center;
+}
+
+#headline {
+	padding: 2%;
+	background-image: url("blackboard-business-chalkboard_edit.png"); /* The image used */
+	background-color: blue; /* Used if the image is unavailable */
+	background-position: 0% 20%; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	color: white;
+	line-height: 1.1;
+}
+
+.headline_container {
+	width: 45%;
+}
+
+.headline_row {
+	overflow: visible;
+}
+
+.grand_font {font-size: 50px;}
+
+.grand_subfont {
+	margin-bottom: 30px; 
+	white-space: nowrap;
+}
+
+#commitment {
+	background-color: #B54E59;
+	text-align: center;
+	color: white;
+}
+
+.short_hr {
+	width: 3%;
+	height: 5px;
+	border: none;
+	background-color: #FFF;
+	}
+	
+/* Schedule Button */
+.banner_button {
+	margin: 15px auto;
+	width: 287px;
+}
+
+.button_container {
+	margin: 15px auto;
+	width: 320px;
+}
+
+.schedule_button {
+	padding: 15px 20px;
+	color: white;
+	background-color: brown;
+	border-radius: 5px;
+	text-shadow: none;
+}
+
+.schedule_button:link, .schedule_button:visited, .schedule_button:active {
+	text-decoration: none;
+	color: white;
+}
+
+.schedule_button:hover {
+	background-color: red;
+	text-decoration: underline;
+}
+
+		/* Main */
+main {
+	overflow: hidden;
+	background-color: aliceblue;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+	/* Video */
+.video {
+	text-align: center;
+	padding: 10px;
+}
+
+	/* Coaching Offerings */
+#coach_offerings {
+	margin: 30px auto;
+}
+
+#coaching_title {
+	text-align:center;
+	background-color: #3b58b8;
+	color: white;
+	padding: 30px;
+	font-size: 30px;
+	border-radius: 10px;
+}
+
+.coachh3 {
+	font-weight: normal;
+	line-height: 320px;
+	margin: 0px;
+	font-size: 30px;
+}
+
+.inner_container {
+	margin: 0px auto; 
+	width: 70%;
+	text-align: center;
+	display: block;
+}
+
+.coaching_sizes {
+	width: 325px;
+	height: 204px;
+	color: white;
+	border-radius: 5px;
+}
+
+#coaching1on1 {
+	margin: 0px auto;
+	display: inline-block;
+	background-image: url("Donnie_August.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
+#speaking_workshops {
+	margin: 0px auto;
+	display: inline-block;
+	background-image: url("audience.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#online_courses {
+	margin: 0px auto;
+	display: inline-block;
+	background-image: url("computer.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+	/* Testimonials */
+#testimonials {
+	padding-bottom: 10px;
+}	
+
+#testimonial_title {
+	text-align: center;
+	background-color: #3b58b8;
+	color: white;
+	padding: 30px;
+	font-size: 30px;
+	border-radius: 10px;
+}
+
+#video_container {
+	margin: 0px auto;
+}
+
+	/* Footer */
+footer {
+	background-color: #215B85;
+	display: block;
+	width: 100%;
+	padding: 25px 0px;
+}
+
+.footer_row {
+	overflow: hidden;
+}
+
+footer h6 {margin: 0px;}
+
+#copyright_design {
+	color:white
+}
+
+#copyright_design {
+	float: left;
+}
+
+#footer_nav {
+	float: right;
+}
+
+#footer_nav ul,
+#footer_nav li {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px 5px;
+	}
+
+#social_media_buttons {
+	float: right;
+	margin-left: 5%;	
+}
+	
+#social_media_buttons ul,
+#social_media_buttons li {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+	
+
+		/* About Us Page */
+#founder img {
+	float:right;
+}		
+
+.aboutcontainer {
+	width: 60%;
+	margin: 0px auto;
+}
+
+.aboutbutton {
+	overflow:hidden;
+	margin: 10px;
+}
+
+.button_row {
+	overflow:hidden;
+	width: 60%;
+	margin: 0px auto;
+}
+
+.inlineh2 {
+	float:left;
+	margin: 0px;
+	display: inline-block;
+	line-height: 65px;
+}
+
+.button_row a {
+	float:right;
+}
+
+		/* Coaching Page */
+.stepcontainer {
+	margin: 0px auto;
+	display: inline-block;
+	width: 241px;
+	height: 382px;
+	color: white;
+	border-radius: 5px;	
+	background-color: red;
+}
+
+.stepcontainer p {
+	font-size: 1em;
+	padding: 0px 20px;
+}
+
+.stepsh3 {
+	margin: 50px auto;
+}
+
+#visionstep {
+	line-height: 17px;
+	background-color: #f2bf5e;
+}
+
+#strategystep {
+	line-height: 17px;
+	padding: 10px auto;
+	background-color: #ff6161;
+}
+
+#trainstep {
+	line-height: 121px;
+	margin-top: 0px;
+	background-color: #536eb7;
+}
+
+#actionstep {
+	line-height: 121px;
+	margin-top: 0px;
+	background-color: #75cba8;
+}
+
+		/* Online Courses */
+#course_container {
+	text-align: center;
+}
+
+.course_format {
+	width: 306px;
+	text-align: center;
+	display: inline-block;
+	margin: 30px;
+	box-shadow: gray 0px 4px 10px 0px;
+}
+
+.book_button {
+	padding: 10px;
+	background-color: skyblue;
+	color: white;
+}
+
+.book_button_format {
+	display: inline-block;
+	float: right;
+	margin: 20px;
+}
+
+.investmentp {
+	display: inline-block;
+	margin: 0px;
+	text-align: center;
+}
+
+.skyblue {
+	color: skyblue;
+}
+
+.center_align {
+	text-align: center;
+}
+
+.boost50 {margin-bottom:50px}
+
+#unfair_advantage {
+}
+
+
+.course_format p {
+}
+
+.course_description {
+	text-align: left;
+	line-height: 18px;
+	font-size: 1em;
+	padding: 0px 20px;
+}
+
+	/* Sell Anywhere */
+.subscribe_button {
+	background-color: transparent;
+	border-radius: 100px;
+	border-color: rgb(59, 88, 184);
+	color: rgb(59, 88, 184);
+	cursor: pointer;
+	border-style: solid;
+	font-size: 16px;
+	padding: 14px 20px;
+}
+
+.rss_icon {
+	width: 12px;
+	padding-right: 6.5px;
+}
+
+.podcastcontainer {
+	width: 40%;
+	margin: 0px auto;
+}
+
+.podcast_section {
+}
+
+.podcast_logo {
+	float: left;
+	padding: 10px;
+	padding-left: 0px;
+}
+
+.podcast_title {
+	margin:0px;
+	font-size: 1.5em;
+}
+
+.podcast_info {
+	margin: 0px;
+}
+
+.podcast_desc {
+	//margin: 0px;
+	font-size: 1em;
+	line-height: 18px;
+}
+
+.podcasthr {
+	clear:both;
+}
+
+	/* Media Queries */
+ /* Micro devices (phones, 480px and down) */
+@media screen and (max-width: 480px) {
+	.inner_container {
+		width: 100%;
+	}
+
+}	
+	
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.container {
+		width: 100%;
+	}
+	.headline_container {
+		width: 100%;
+	}
+	#headline h2 {
+		white-space: normal;
+	}
+	video {
+		width: 100%;
+	}
+	.minivid {
+		width: 100%;
+	}
+	.aboutcontainer {
+		width: 100%;
+	}
+	#founder img {
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 370px) {
+	.course_format {
+		margin: 7px; 
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+	.bigvideo {
+		width: 80%;
+	}
+	
+	#founder img {
+		float:none;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.bigvideo {
+		width: 70%;
+	}
+}
+
+/* All devices smaller than Large devices (laptops/desktops, 992px and down)
+@media only screen and (max-width: 992px) {
+	#found img {
+		float: none;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) { 
+} 
