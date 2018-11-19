@@ -527,6 +527,12 @@ footer h6 {margin: 0px;}
 	padding: 14px 20px;
 }
 
+.subscribe_button:hover {
+	transition: 0.5s ease-in;
+	background-color: rgb(59, 88, 184);
+	color: white;
+}
+
 .rss_icon {
 	width: 12px;
 	padding-right: 6.5px;
