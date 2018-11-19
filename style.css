@@ -99,6 +99,7 @@ li.dropdown {
 
 #logo h1 {
 	margin: auto 0px;
+	padding: 7px;
 }
 
 #greaterthanlogo {
@@ -226,6 +227,7 @@ a:link, a:visited, a:hover, a:active {
 .button_container {
 	margin: 15px auto;
 	width: 320px;
+	overflow: hidden;
 }
 
 .schedule_button {
@@ -527,6 +529,12 @@ footer h6 {margin: 0px;}
 	padding: 14px 20px;
 }
 
+.subscribe_button:hover {
+	transition: 0.5s ease-in;
+	background-color: rgb(59, 88, 184);
+	color: white;
+}
+
 .rss_icon {
 	width: 12px;
 	padding-right: 6.5px;
@@ -555,14 +563,38 @@ footer h6 {margin: 0px;}
 	margin: 0px;
 }
 
+.podcast_info_div {
+	min-width: 360px;
+}
+
 .podcast_desc {
-	//margin: 0px;
+	margin-top: 0px;
 	font-size: 1em;
 	line-height: 18px;
 }
 
 .podcasthr {
 	clear:both;
+}
+
+	/* Workshops & Speaking */
+.list_container {
+	width: 50%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.list_container ul {
+	padding: 0px;
+	list-style: none;
+}
+
+	/* Contact Us */
+.contact input, .contact textarea {
+	width: 300px;
+	display: block;
+	margin: 10px auto;
+	overflow: auto;
 }
 
 	/* Media Queries */
